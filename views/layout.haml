@@ -5,7 +5,11 @@
     %meta{:name => "lang", :content => "en"}
     %title Sinatra Bootstrap
     %link{:href=>'/stylesheets/application.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
-    %script{:type => "text/javascript", :src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"}
+    %link{:href => "/stylesheets/bootstrap.min.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "/stylesheets/bootstrap-toggle.min.css", :rel => "stylesheet", :type => "text/css"}
+    %script{:type => "text/javascript", :src => "/javascripts/jquery.min.js"}
+    %script{:type => "text/javascript", :src => "/javascripts/bootstrap.min.js"}
+    %script{:type => "text/javascript", :src => "/javascripts/bootstrap-toggle.min.js"}
     %script{:type => "text/javascript", :src => "/javascripts/application.js"}
   %body
     = yield
